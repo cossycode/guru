@@ -1,0 +1,7 @@
+<h3 id="task_story" *ngFor="let qas of qas">{{qas.taskStory}}</h3>  
+
+<div id="ready_to_play_div">
+  <a routerLink="/qa"><button *ngIf="showreadytoplaybutton" (click)="disableButton()" id="ready_to_play_button">Ready to Play</button></a>
+</div>
+
+<router-outlet></router-outlet>

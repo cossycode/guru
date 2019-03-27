@@ -1,0 +1,10 @@
+{
+    "taskStory":"This is one of the large warehouses. The work can be a drudge but there are ways to get around this if you can build machines!",
+    "taskText":"Your task is to add liquid to containers",
+    "grid": false,
+    "qa" : [
+        { "q":"Write an expression for b fewer the 63" , "a":"63-b" },
+        { "q":"Write an expression for p fewer the 107" , "a":"107-p" },
+        { "q":"Write an expression for u more than 38" , "a":"38+u"} 
+    ]
+}
